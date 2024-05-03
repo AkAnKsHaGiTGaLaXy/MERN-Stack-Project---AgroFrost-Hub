@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-login {
+  @apply bg-lightgreenpallete text-white text-[18px] px-6 py-2 rounded-lg focus:outline-none focus:shadow-lg;
+}
+.input-register {
+  @apply shadow appearance-none border hover:border-greenpallete rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none;
+}
+.input-login {
+  @apply shadow appearance-none border hover:border-lightgreenpallete rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none;
+}
+.active-tab {
+  @apply text-redpallete font-bold border-b border-redpallete;
+}
+.forgot-txt {
+  @apply inline-block align-baseline font-bold text-sm text-redpallete;
+}
